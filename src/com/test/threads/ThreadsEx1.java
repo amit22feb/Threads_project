@@ -2,10 +2,6 @@ package com.test.threads;
 
 public class ThreadsEx1{
 
-	private String threadName;
-	public ThreadsEx1(String name){
-		
-	}
 	public static void main(String[] args) {
 	
 		Thread t1 = new Thread(new MyThread("Thread-1"));
