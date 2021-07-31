@@ -38,14 +38,16 @@ class MyThread implements Runnable{
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				System.out.println("Thread "+threadName+" interrupted");
+				System.out.println("Thread "+threadName+" interrupted.");
 			}
 		}
-		System.out.println("Thread "+threadName+" exitting");
+		System.out.println("Thread "+threadName+" exiting");
 	}
 	
 	public void showName(){
+    
 		System.out.println("Thread");
+
 	}
 	
 }
