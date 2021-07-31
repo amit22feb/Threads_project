@@ -45,6 +45,7 @@ class MyThread implements Runnable{
 	}
 	
 	public void showName(){
+		System.out.println("Thread");
 	}
 	
 }
